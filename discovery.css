@@ -1,6 +1,9 @@
 body {
-    background-color: #CCE9F3;
+    
     font-family: Arial;
+    background-image:url("Background.jpg");
+    background-position: center; 
+    background-repeat:no-repeat;
 }
 
 .content {
@@ -9,21 +12,29 @@ body {
     margin-top: 30px;
 }
 
+.usertype {color: white;}
+
 .boxbox {
     margin: auto!important;
-    border: 3px solid #0078E2;
+    border: 0px solid #000000;
     border-radius: 20px;
     padding: 10px 40px;
     display: inline-block;
-    background-color: white;
+    background-color:#991a37;
 }
 
 .buttonbox {
     margin: auto;
     width: 250px;
+  
+    
 }
 
 .pure-button {
     border-radius: 5px;
-    min-width: 250px;
+    min-width: 280px;
+      border: 1px solid white;
+      background-color: #394B48;
+      color:  #394B48;
+     
 }
